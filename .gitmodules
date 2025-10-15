@@ -1,0 +1,6 @@
+[submodule "themes/dario"]
+	path = themes/dario
+	url = git@github.com:GrantBirki/dario.git
+[submodule "themes/devise"]
+	path = themes/devise
+	url = https://github.com/austingebauer/devise
