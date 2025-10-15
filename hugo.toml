@@ -1,3 +1,30 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://imeckr.github.io/"
+languageCode = "en-us"
+title = "Chandan — my notes"        # edit
+theme = "devise"
+enableRobotsTXT = true
+hasCJKLanguage = false
+googleAnalytics = ""   # or your GA id e.g. "G-XXXX"
+disableKinds = ["taxonomy"]
+
+
+
+# build
+[pagination]
+    pagerSize=10
+
+[params]
+  author = "Chandan"
+  description = "Short tagline — developer, founder, wannabe writer."
+  dateFormat = "Jan 2, 2006"
+  showReadingTime = true
+  # PaperMod specific
+  themeColor = "#0ea5a4"
+  showGallery = true
+  language = "en"
+
+[permalinks]
+  posts = "/posts/:year/:month/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
