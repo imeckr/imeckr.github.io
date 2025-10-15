@@ -10,6 +10,7 @@ I co-founded [OPA](https://opa.marketing/) and [exited](https://brandequity.econ
 I have previously worked at 
 - Delivery Hero (Berlin, Germany) - Senior Data Scientist
 - OLX (Buenos Aires, Argentina) - ML Engineer  
+
 I studied at IIT Kharagpur
 
 ### Contact
