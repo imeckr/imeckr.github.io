@@ -1,11 +1,12 @@
 baseURL = "https://imeckr.github.io/"
 languageCode = "en-us"
-title = "Chandan — my notes"        # edit
+title = "Chandan — my notes"
 theme = "devise"
 enableRobotsTXT = true
 hasCJKLanguage = false
-googleAnalytics = ""   # or your GA id e.g. "G-XXXX"
-disableKinds = ["taxonomy"]
+copyright = "&copy; 2025, Chandan Routray"
+googleAnalytics = ""
+
 
 
 
@@ -14,14 +15,30 @@ disableKinds = ["taxonomy"]
     pagerSize=10
 
 [params]
-  author = "Chandan"
-  description = "Short tagline — developer, founder, wannabe writer."
   dateFormat = "Jan 2, 2006"
   showReadingTime = true
-  # PaperMod specific
-  themeColor = "#0ea5a4"
-  showGallery = true
-  language = "en"
+  header_title = "Chandan Routray"                 # Your header title
+  header_subtitle = "tech, ai and startups" # Your header subtitle
+  home_image = "/images/avatar.jpg"          # Path to header image starting from the static directory (optional)
+  recent_posts = 5                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+    [params.style]                             # CSS style overrides
+        backgroundColor = "#f8f9fa"
+        homeImageBorderColor = "#ffffff"
+        fontFamilyBase = "Helvetica Neue"        # First-choice font
+        fontColor = "#212529"
+    [[params.social]]
+        fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+        href = "http://github.com/imeckr"      # Link to associate with icon (http://, https://, mailto:)
+    [[params.social]]
+        fa_icon = "fab fa-linkedin-in fa-1x"
+        href = "https://www.linkedin.com/in/chandanroutray/"
+    [[params.social]]
+        fa_icon = "fab fa-twitter fa-1x"
+        href = "https://x.com/imeckr"
+    [[params.social]]
+        fa_icon = "fas fa-at fa-1x"
+        href = "mailto:chndnroutray@gmail.com"    
 
 [permalinks]
   posts = "/posts/:year/:month/:slug/"
